@@ -15,10 +15,6 @@ module.exports = {
                 test: /\.js$/,
               include: /react-icons/,
                 loader: path.resolve(__dirname, 'icon-split-loader.js'),
-          },
-          {
-                test: /\/chunk-[^\/]+\/[^\/]+\.js$/,
-                loader: path.resolve(__dirname, 'icon-split-loader.js'),
           }
       ]
     },
@@ -27,21 +23,5 @@ module.exports = {
   },
     optimization: {
         minimize: false,
-    //     splitChunks: {
-    //         chunks: 'async',
-    //         cacheGroups: {
-    //             defaultVendors: {
-    //                 test: /[\\/]react-icons[\\/]/,
-    //                 minChunks: 1,
-    //                 reuseExistingChunk: false,
-    //                 chunks: 'all',
-    //             },
-    //             // default: {
-    //             //     minChunks: 1,
-    //             //     chunks: 'all',
-    //             //     reuseExistingChunk: true,
-    //             // },
-    //         },
-    //     },
     }
 };
