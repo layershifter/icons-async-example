@@ -11,6 +11,7 @@ import {
   AccessibilityMoreRegular,
   AccessibilityQuestionMarkFilled,
   AccessibilityQuestionMarkRegular,
+  AddFilled
 } from "@fluentui/react-icons";
 
 export const icons = {
@@ -26,4 +27,5 @@ export const icons = {
   AccessibilityMoreRegular,
   AccessibilityQuestionMarkFilled,
   AccessibilityQuestionMarkRegular,
+  AddFilled
 };
